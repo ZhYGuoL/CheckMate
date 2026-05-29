@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096C814379D90CEB7EA1BEDC /* CompassScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C2386D4B03EA232E9B1D6 /* CompassScreen.swift */; };
+		0AFD573D1733E36546D0E524 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FA7A4F63C31DFE1C2BE6D8 /* AppTheme.swift */; };
+		2A87EFE9DBE83FA544003D63 /* VCDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623D79FB07629503F4B2F868 /* VCDataStore.swift */; };
+		2E8F1A4C9D703B562148E7D0 /* VCLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D2E8F1A703B562148E7D1 /* VCLogoView.swift */; };
+		3B6C8D2F1A904E673259F8E0 /* Logos in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E9F0A2B814C584370A9F1 /* Logos */; };
+		3C49D6950C8102928360B95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21E5EC52AF984FA07DFFBAB /* Assets.xcassets */; };
+		64F9A02ED2117AB486A55E82 /* VCOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196CBCB5144B7CBAEA2A49C /* VCOrganization.swift */; };
+		7A1C4E8F2D903B561248E7C9 /* vc_locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F9B2D8C1E704A368593D2B0 /* vc_locations.json */; };
+		8C50D86946BD0529A434DD7E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8AAB39214BD4BEA98C38B /* LocationManager.swift */; };
+		B68846AAB6AA98BEDDC401FE /* CheckMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A94479C854381DF1BD6D3B /* CheckMateApp.swift */; };
+		CEDEECDA2F98989DF6ED17C1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0849007B89F2D7204F33F35 /* RootView.swift */; };
+		D6FAF4C1819FA614D383C075 /* GeoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C3C99ABCDD2FF47B8ADB67 /* GeoHelpers.swift */; };
+		FB5A30CBE9A976BE9A060D6D /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8608C7779AEF988740ED19A9 /* MapScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		329948932FC91D2300FFE5C8 /* StandIn-pin 7.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "StandIn-pin 7.gpx"; path = "../../../Downloads/StandIn-pin 7.gpx"; sourceTree = "<group>"; };
+		329948942FC91EEB00FFE5C8 /* StandIn-pin 8.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "StandIn-pin 8.gpx"; path = "../../../Downloads/StandIn-pin 8.gpx"; sourceTree = "<group>"; };
+		4C9D2E8F1A703B562148E7D1 /* VCLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCLogoView.swift; sourceTree = "<group>"; };
+		571C2386D4B03EA232E9B1D6 /* CompassScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassScreen.swift; sourceTree = "<group>"; };
+		5F9B2D8C1E704A368593D2B0 /* vc_locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vc_locations.json; sourceTree = "<group>"; };
+		6196CBCB5144B7CBAEA2A49C /* VCOrganization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOrganization.swift; sourceTree = "<group>"; };
+		623D79FB07629503F4B2F868 /* VCDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDataStore.swift; sourceTree = "<group>"; };
+		6D7E9F0A2B814C584370A9F1 /* Logos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Logos; sourceTree = "<group>"; };
+		8608C7779AEF988740ED19A9 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		86FA7A4F63C31DFE1C2BE6D8 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		9AD8AAB39214BD4BEA98C38B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A0849007B89F2D7204F33F35 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C21E5EC52AF984FA07DFFBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6A94479C854381DF1BD6D3B /* CheckMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMateApp.swift; sourceTree = "<group>"; };
+		E0C3C99ABCDD2FF47B8ADB67 /* GeoHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoHelpers.swift; sourceTree = "<group>"; };
+		ECA37CE078D02751755C7C86 /* CheckMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4F9A6BE905E5765622121DA4 = {
+			isa = PBXGroup;
+			children = (
+				329948942FC91EEB00FFE5C8 /* StandIn-pin 8.gpx */,
+				329948932FC91D2300FFE5C8 /* StandIn-pin 7.gpx */,
+				C75CF4923ECECDD1A98846B2 /* CheckMate */,
+				D6E66AF8676F54A1EE680310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541E53830C19693931BF2EF7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9AD8AAB39214BD4BEA98C38B /* LocationManager.swift */,
+				623D79FB07629503F4B2F868 /* VCDataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A8F3D2C1B904E5678134ABCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E9F0A2B814C584370A9F1 /* Logos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B7A8BF401569A2268AF8BB4C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E0C3C99ABCDD2FF47B8ADB67 /* GeoHelpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C75CF4923ECECDD1A98846B2 /* CheckMate */ = {
+			isa = PBXGroup;
+			children = (
+				C21E5EC52AF984FA07DFFBAB /* Assets.xcassets */,
+				C6A94479C854381DF1BD6D3B /* CheckMateApp.swift */,
+				5F9B2D8C1E704A368593D2B0 /* vc_locations.json */,
+				A8F3D2C1B904E5678134ABCD /* Resources */,
+				F41CC44CA0662BA3373DF6E5 /* Models */,
+				541E53830C19693931BF2EF7 /* Services */,
+				E99AC2F5BC538C7AB0C9745E /* Theme */,
+				B7A8BF401569A2268AF8BB4C /* Utilities */,
+				D58E32C038D53EB71450F369 /* Views */,
+			);
+			path = CheckMate;
+			sourceTree = "<group>";
+		};
+		D58E32C038D53EB71450F369 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				571C2386D4B03EA232E9B1D6 /* CompassScreen.swift */,
+				8608C7779AEF988740ED19A9 /* MapScreen.swift */,
+				A0849007B89F2D7204F33F35 /* RootView.swift */,
+				4C9D2E8F1A703B562148E7D1 /* VCLogoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6E66AF8676F54A1EE680310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA37CE078D02751755C7C86 /* CheckMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E99AC2F5BC538C7AB0C9745E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				86FA7A4F63C31DFE1C2BE6D8 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F41CC44CA0662BA3373DF6E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6196CBCB5144B7CBAEA2A49C /* VCOrganization.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AA94B97505F7542379CE9F1 /* CheckMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3BA8E9FDD30091ABFB4919 /* Build configuration list for PBXNativeTarget "CheckMate" */;
+			buildPhases = (
+				B91E2C4D5F60718293A4B6C7 /* Copy VC Data */,
+				6BD2CFCA16554639E8B2A928 /* Sources */,
+				FE4AF0C79173C8492F34E869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMate;
+			packageProductDependencies = (
+			);
+			productName = CheckMate;
+			productReference = ECA37CE078D02751755C7C86 /* CheckMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14ECA4F53D307C2DA70B1DDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = B69964E88248F3B2205A18E1 /* Build configuration list for PBXProject "CheckMate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4F9A6BE905E5765622121DA4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6E66AF8676F54A1EE680310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AA94B97505F7542379CE9F1 /* CheckMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE4AF0C79173C8492F34E869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C49D6950C8102928360B95E /* Assets.xcassets in Resources */,
+				3B6C8D2F1A904E673259F8E0 /* Logos in Resources */,
+				7A1C4E8F2D903B561248E7C9 /* vc_locations.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B91E2C4D5F60718293A4B6C7 /* Copy VC Data */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy VC Data";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DEST=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\nmkdir -p \"${DEST}\"\ncp \"${SRCROOT}/CheckMate/vc_locations.json\" \"${DEST}/vc_locations.json\"\nrm -rf \"${DEST}/Logos\"\ncp -R \"${SRCROOT}/CheckMate/Resources/Logos\" \"${DEST}/Logos\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD2CFCA16554639E8B2A928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFD573D1733E36546D0E524 /* AppTheme.swift in Sources */,
+				B68846AAB6AA98BEDDC401FE /* CheckMateApp.swift in Sources */,
+				096C814379D90CEB7EA1BEDC /* CompassScreen.swift in Sources */,
+				D6FAF4C1819FA614D383C075 /* GeoHelpers.swift in Sources */,
+				8C50D86946BD0529A434DD7E /* LocationManager.swift in Sources */,
+				FB5A30CBE9A976BE9A060D6D /* MapScreen.swift in Sources */,
+				2E8F1A4C9D703B562148E7D0 /* VCLogoView.swift in Sources */,
+				CEDEECDA2F98989DF6ED17C1 /* RootView.swift in Sources */,
+				2A87EFE9DBE83FA544003D63 /* VCDataStore.swift in Sources */,
+				64F9A02ED2117AB486A55E82 /* VCOrganization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3AA6AFE7925204195CE61663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = N4GAW5JL9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckMate;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CheckMate uses your location to show nearby VCs on the map and point the compass toward the nearest accelerator.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkmate.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ADCC7CA64205BB07555F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "CheckMate uses your location to show nearby VCs on the map and point the compass toward the nearest accelerator.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CheckMate uses your location to show nearby VCs on the map and point the compass toward the nearest accelerator.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		670B5B4F833FF129A36D49B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = N4GAW5JL9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckMate;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CheckMate uses your location to show nearby VCs on the map and point the compass toward the nearest accelerator.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkmate.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		922C678B451EC7BFA1BA0589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "CheckMate uses your location to show nearby VCs on the map and point the compass toward the nearest accelerator.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CheckMate uses your location to show nearby VCs on the map and point the compass toward the nearest accelerator.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3BA8E9FDD30091ABFB4919 /* Build configuration list for PBXNativeTarget "CheckMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6AFE7925204195CE61663 /* Debug */,
+				670B5B4F833FF129A36D49B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B69964E88248F3B2205A18E1 /* Build configuration list for PBXProject "CheckMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922C678B451EC7BFA1BA0589 /* Debug */,
+				3ADCC7CA64205BB07555F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14ECA4F53D307C2DA70B1DDE /* Project object */;
+}
